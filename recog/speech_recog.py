@@ -1,3 +1,4 @@
+#first you have to install speech_recognition using terminal
 import speech_recognition as sr
 
 r = sr.Recognizer()
