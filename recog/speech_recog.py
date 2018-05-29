@@ -8,7 +8,7 @@ with sr.Microphone() as source:
 	audio = r.listen(source)
 
 try:
-	print('Me: ' + r.recognize_google(audio))
+	print('I detected this: ' + r.recognize_google(audio))
 
 except:
 	pass
