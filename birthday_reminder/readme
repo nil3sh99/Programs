@@ -1,0 +1,4 @@
+This program is for ubuntu users.
+For windows user find an equivalent system toast message method, and replace it where in the code, this is written:-
+
+os.system('notify-send "Message" ')
