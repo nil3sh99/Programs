@@ -4,7 +4,9 @@ import time
 import os
 
 #birthday format should be 
-#Mnth day    name   Surname .... without quotes
+	#Mnthday    name   Surname .... without quotes
+#ex : 0631
+#ex : 0801
 
 birthdayFile = '/home/nilesh/Desktop/Work/python-progs/Python-progs/birthday_reminder/rawData.txt'
 
@@ -27,7 +29,7 @@ def checkTodayBirthdays():
 
 	for line in fileName:
 		if today in line:
-			line = line.split('')#takes in two arguments - separator, maxsplit
+			line = line.split(' ')#takes in two arguments - separator, maxsplit
 			
 			#split() method returns a list of strings after
 			#breaking the given string by the specified sepa-
@@ -38,4 +40,6 @@ def checkTodayBirthdays():
 			os.system('notify-send "today birthday: ' +line[1] + ' ' + line[2] + '"' )
 	if flag == 0:
 			os.system('notify-send "No birthday today"')
-					
+
+if __name__ == '__main__':
+	checkTodayBirthdays()					
