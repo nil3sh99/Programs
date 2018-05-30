@@ -1,3 +1,4 @@
+# utf coding: utf-8
 import time
 
 import os
@@ -24,7 +25,7 @@ def checkTodayBirthdays():
 	
 	flag = 0
 
-	for line in fileName
+	for line in fileName:
 		if today in line:
 			line = line.split('')#takes in two arguments - separator, maxsplit
 			
