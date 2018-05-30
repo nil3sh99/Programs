@@ -26,7 +26,7 @@ def checkTodayBirthdays():
 
 	for line in fileName
 		if today in line:
-			line = line.split('')
+			line = line.split('')#takes in two arguments - separator, maxsplit
 			
 			#split() method returns a list of strings after
 			#breaking the given string by the specified sepa-
@@ -34,3 +34,7 @@ def checkTodayBirthdays():
 			flag = 1
 			#flag =1 means till it is TRUE
 			#flag =0 means till it is FALSE
+			os.system('notify-send "today birthday: ' +line[1] + ' ' + line[2] + '"' )
+	if flag == 0:
+			os.system('notify-send "No birthday today"')
+					
