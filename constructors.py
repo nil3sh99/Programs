@@ -3,13 +3,13 @@
 class defConstr:
     num =121
 
-    def read_data(self,data):
-        self.num = data
+    def read_data(self):
+        #self.num = data
         print(self.num)
 
 obj = defConstr()
 
-obj.read_data(122)
+obj.read_data()
 
 
 
