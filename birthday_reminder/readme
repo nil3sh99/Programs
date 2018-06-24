@@ -1,3 +1,13 @@
+
+How to use:
+1) Import the code from birthday_reminder_program
+2) Input your data in the text file ( data: List of birthdays in the format monthDay Fname Lname)
+3) In the code, replace the file url with your text file.
+4) Run and Enjoy :)
+
+
+
+*NOTE*
 This program is for ubuntu users.
 For windows user find an equivalent system toast message method, and replace it where in the code, this is written:-
 
