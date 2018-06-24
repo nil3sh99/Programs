@@ -1,4 +1,5 @@
 #declaring object usin gdynamic programming
+#without using constructors
 class Student(object):
     name = ""
     age = 0
