@@ -17,3 +17,4 @@ print("Height of {} is {}".format(ram.name, ram.height))
 print("Height of {} is {}".format(nilesh.name, nilesh.height))
 
 print(nilesh.hello())
+print(ram.eating("Dinner"))
