@@ -1,0 +1,19 @@
+Scrapy intro:
+
+1. To fetch the url use
+
+	fetch('yourURL here')
+
+2. To check the url use
+
+	response.url
+
+3. to extract out the contents using the CSS or any other webpage prop use the following syntax
+
+	response.css(' `pageTag`.`classTitle` ')
+
+4. To extract the useful content ou of it use the following command
+
+	response.css(' `pageTag`.`classTitle` ').extract()
+
+5. 	
