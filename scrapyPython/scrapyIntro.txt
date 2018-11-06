@@ -16,4 +16,6 @@ Scrapy intro:
 
 	response.css(' `pageTag`.`classTitle` ').extract()
 
-5. 	
+5. To extract out only specific attributes from the url 
+
+	response.css(' `pageTag`.`classTitle`::attr(href)').extract	
