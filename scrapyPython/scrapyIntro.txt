@@ -3,6 +3,7 @@ Scrapy intro:
 1. To fetch the url use
 
 	fetch('yourURL here')
+ex>	fetch('https://www.reddit.com/r/funny/')
 
 2. To check the url use
 
