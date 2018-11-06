@@ -1,4 +1,7 @@
-Scrapy intro:
+Scrapy intro:(These commands to be run into scrapy shell)
+
+To run scrapy shell execute in Anaconda prompt:-
+$ scrapy shell
 
 1. To fetch the url use
 
