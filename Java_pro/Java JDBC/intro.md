@@ -35,7 +35,9 @@ rs.getInt(); // rs.getString() if the input to take is a string type
 
 5. Closing a connection
 
-``` con.close()```
+```
+con.close()
+```
 
 
 Summary of steps we did for creating a connection:-
