@@ -1,5 +1,7 @@
 ### Introduction to JDBC
 
+#### Lecture-1
+
 Java JDBC is an API to connect and execute query with the database.
 
 #### Steps for connection :-
@@ -44,4 +46,3 @@ Summary of steps we did for creating a connection:-
 4.Execute a query (Result rs = stmt.executeQuery("Your query here"))
 5.Close the connection (con.close())
 
-#### Lecture-1
