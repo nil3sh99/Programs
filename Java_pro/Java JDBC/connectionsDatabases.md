@@ -19,3 +19,13 @@ class sql1{
 	}
 }
 ```
+
+### MySQL
+
+only the driver class changes, rest process remains same and hence:-
+
+Driver class = con.mysql.jdbc.Driver
+Connection url = jdbc:mysql://localhost:8080:DatabaseName;
+
+
+### Access database
