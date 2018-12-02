@@ -43,3 +43,5 @@ Summary of steps we did for creating a connection:-
 3.Create a statement object (Statement stmt = con.createStatement())
 4.Execute a query (Result rs = stmt.executeQuery("Your query here"))
 5.Close the connection (con.close())
+
+#### Lecture-1
