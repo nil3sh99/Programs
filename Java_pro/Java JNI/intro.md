@@ -38,3 +38,6 @@ JNIEXPORT void JNICALL Java_HelloJNI_Hello(JNIEnv *env, jObject thisObj){
 	return;
 }
 ```
+
+
+#### Main application using Java JNI is under process and will be uploaded to the repository once completed.
