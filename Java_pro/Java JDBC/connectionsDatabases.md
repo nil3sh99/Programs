@@ -29,3 +29,6 @@ Connection url = jdbc:mysql://localhost:8080:DatabaseName;
 
 
 ### Access database
+
+Two types are possible in this (1) With DSN    (2)Without DSN
+				Data Source Name
