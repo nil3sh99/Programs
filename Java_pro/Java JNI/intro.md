@@ -12,7 +12,7 @@ I shall assume that you are familiar with:
 
 1. Java source code:-
 
-```
+```java
 public class HelloJNI{
 	static{
 		System.loadLibrary("native");
@@ -28,7 +28,7 @@ public class HelloJNI{
 
 2. C source code
 
-```
+```C
 #include<stdio.h>
 #include<jni.h>
 #include "HelloJNI" // library that you made in your java code
