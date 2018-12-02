@@ -1,10 +1,10 @@
 ## Connecting with different databases
 
 ### Oracle Database
-
-Driver class = oracle.driver.OracleDriver
+```
+Driver class = oracle.driver.OracleDriver </br>
 Connection url = jdbc:oracle:this@localhost:Port_number:xe
-
+```
 Ex:-
 ```java
 import java.sql.*;
