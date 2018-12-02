@@ -24,11 +24,11 @@ class sql1{
 
 only the driver class changes, rest process remains same and hence:-
 
+``` java
 Driver class = con.mysql.jdbc.Driver
 Connection url = jdbc:mysql://localhost:8080:DatabaseName;
-
+```
 
 ### Access database
 
-Two types are possible in this (1) With DSN    (2)Without DSN
-				Data Source Name
+Two types are possible in this (1) With DSN \t (2)Without DSN \t (Data Source Name)
