@@ -21,8 +21,8 @@ class main{
 	public static void main(String ar[]){
 	student s1 = new student(1, "A");
 	student s2 = new student(2, "B", 201);
-//	System.out.println(id + name + roll_no);
+	//System.out.println(id + name + roll_no);
 	s1.display();
-	s2.display();
+//	s2.display();
 	}
 }
