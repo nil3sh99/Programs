@@ -9,7 +9,8 @@ class B extends A{
 		System.out.println("Hello i am from B");
 	}
 public static void main(String ar[]){
-		B b = (B)new A(); // downcasting Compile Time Error
+//		A a = new B();  	// Upcasting works ... dynamic method dispatch
+		B b = (B) new A();	// downcasting Compile Time Error
 		b.fun1();
 	}
 }	
