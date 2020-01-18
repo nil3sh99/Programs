@@ -10,6 +10,5 @@ class factorial{
             res = res*i;
         }
         System.out.print(res);
-
     };
 }
